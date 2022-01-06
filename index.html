@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Web Design: WS2022</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Open+Sans&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght,CRSV@1000,0&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/arb6mvv.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+ 
+    <script defer src="script.js"></script>
+</head>
+<body>
+<header class="evergreen">
+    <div class="top"><h1>&#x25A0;Web Design</h1></div>
+    <div class="info">
+        <p>RISD</p>
+        <p>GRAPH-3271-02</p>
+        <p>Wintersession 2022</p>
+        <p>M/T + W 1:10–6:10PM EST</p>
+        <p><br>Zach Scheinfeld</p>
+        <p>office hours <i>by</i> appt</p>
+        <p>zscheinf@risd.edu</p>
+    </div>
+    <div class="copyright"><p>&copy;2021</p></div>
+</header>
+
+
+
+<div class="content">
+    <nav>
+        <div class="mobi mobi-col">
+            <div class="top"><h1>&#x25A0;Web Design</h1></div>
+            <div class="info">
+                <p>RISD</p>
+                <p>GRAPH-3271-02</p>
+                <p>Wintersession 2021</p>
+                <p>M/T + W 1:10–6:10PM EST</p>
+                <p><br>Kit Son Lee</p>
+                <p>office hours <i>by</i> appt</p>
+                <p>klee19[at]risd.edu</p>
+            </div>
+        </div>
+        <div class="nav-items mobi-col mobi-col-right">
+        <div class="top mobi menu"><h1>Menu +</h1></div>
+        <div class="active"><a href="#syllabus">Syllabus</a></div>
+        <div><a href="#schedule">Schedule</a></div>
+        <div><a href="#exercises">Exercises</a></div>
+        <div><a href="#projects">Projects</a></div>
+        <div><a href="https://github.com/risd-web/wd-winter18/wiki/Resources">Resources</a></div>
+        </div>
+    </nav>
+    <section class="sec" id="syllabus">
+        <div class="syl-sec" id="overview">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                 <br>   
+                <h3>Course Overview</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>This course is an introduction to the web as a medium, covering the technical basics of HTML, CSS, and Javascript, with some forays into the considerations and implications of contemporary network culture. We'll learn the tools and techniques involved in creating a website from scratch, while exploring the application of graphic design principles to web-based technology. Class time will consist of discussions of relevant readings, technical lectures, design critiques, and hands-on coding workshops. No prior coding experience required.</p>
+            </div>
+        </div>
+        <div class="syl-sec" id="objectives">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <br>   
+                <h3>Course Objectives</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>By the successful completion of this course, students will have:</p>
+                <ul>
+                    <li>An understanding of the technologies and workflows involved in designing and implementing a website</li>
+                    <li>Working knowledge of HTML, CSS, Javascript, and jQuery</li>
+                    <li>Foundations in programming logic, including variables, loops, functions, and data structures</li>
+                    <li>Familiarity with basic UX considerations in the browser</li>
+                    <li>An awareness of how information is distributed online and of the web as a specific public space with its own affordances, modes of communication, and failures</li>
+                </ul>
+            </div>
+        </div>
+        <div class="syl-sec" id="structure">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <br>   
+                <h3>Class Format</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Class time will be divided between lectures, technical demos, in-class exercises, conversations around relevant readings, and project troubleshooting and critique. Technical troubleshooting for projects will be handled in small groups or 1-on-1's as possible.</p>
+
+                <p>Lectures will largely be technical in nature, with the goal of introducing students to the terminologies and affordances of the code languages relevant for upcoming assignments.</p>
+            </div>
+        </div>
+        <div class="syl-sec" id="assignments">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <br>   
+                <h3>Assignments</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Assignments will be a combination of exercises, projects, and readings. Exercises are in-class/take-home assignments for practicing or extending material covered in class. Projects are larger assignments to shape your own content. Readings are intended to explore the social and conceptual ramifications of the Web, the Internet, and computation, in the hopes that the growth in technical literacy will coincide with growth in critical engagement with contemporary network conditions.</p>
+
+                <p>There will be 2 Projects and many smaller exercises over the course of the semester. "Readings" may be texts or videos and will be assigned as relevant. Students will turn in a final website compiling their projects and exercises.</p>
+            </div>
+        </div>
+        <div class="syl-sec" id="work">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <br>   
+                <h3>Submission of Work</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>All coursework—with the exception of p5.js exercises—will be published online through Github and reviewed in Chrome. Links to projects will be submitted through Slack in the individual <i>#yourname</i> channel.</p>
+                <p>Students will be expected to keep a log of attemped code via commenting within their code files.</p>
+            </div>
+        </div>
+        <div class="syl-sec" id="grading">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <br>   
+                <h3>Attendance & Grading</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Please arrive on time and prepared for each class. Three unexcused absences will result in failure of the course. I value clear communication regarding any circumstances that require an absence or an extension, as early as possible.</p>
+
+                <p>Due to the technical nature of this course, the breadth of material, and the (somewhat) steep learning curve, grading of projects will rely on demonstrated effort towards students' own proposed goals more than final polish. "Effort" will be understood through documentation of code that was attempted but did not work, and thorough commenting on the code you are executing.</p>
+    
+                <p>Participation is hard over Zoom (although hopefully most of the course will be in-person). Therefore, aside from projects, grading will holistically consider attendance, peer engagement, willingness to experiment and take risks, completion of exercises, and personal commitment to community, whether that's speaking up during reading discussions or critiques, leaving comments in Slack, or contributing references and inspiration to the <i>#learning-references</i> and <i>#_check-this-out</i> channels.</p>
+            </div>
+        </div>
+        <div class="syl-sec" id="office-hours">
+            <div class="syl-head">
+                <div class="left"></div>
+                  
+                <div class="right">
+                <br> 
+                <h3>Office Hours</h3></div>
+            </div>
+
+            <div class="syl-text">
+                <p>Office hours are by appointment. However, I will try to answer questions or troubleshoot code via Slack outside of these hours to the best of my ability.</p>
+            </div>
+        </div>
+        <div class="syl-sec" id="references">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <br> 
+                <h3>References & Technology</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>All references will be posted to the <i>#learning-references</i> channel on Slack. I invite you to post any references of interest you find to this channel as well.</p>
+                <p>Outside of Adobe CC programs, we will be using the following listed technologies for this class.</p>
+                <ul>
+                    <li><a href="https://join.slack.com/t/risdwebdesignws2021/shared_invite/zt-kjyww0na-3rM_NybYdeKL6I0huI9_ZQ">Slack</a></li>
+                    <li><a href="https://github.com/">GitHub</a>—Sign up for an account, and download the <a href="https://desktop.github.com/">GitHub Desktop Client</a></li>
+                    <li><a href="https://code.visualstudio.com/">Visual Studio Code</a> (or your preferred code editor)</li>
+                    <li><a href="https://www.figma.com/education/">Figma</a>—Apply for the free Education Plan as a student</li>
+                    <li><a href="https://www.codecademy.com/">Codecademy</a>—Sign up for a free account</li>
+                    <li><a href="https://www.udacity.com/">Udacity</a>—Sign up for a free account</li>
+                    <li><a href="https://www.google.com/chrome/">Google Chrome</a> or <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>—assignments will be evaluated in Firefox</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="syl-sec" id="inclusivity">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <br> 
+                <h3>Inclusivity Statement</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>It is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students’ needs be addressed both in and out of the class, and that the diversity that students bring to this studio be viewed as a resource, strength, and benefit.</p>
+
+                <p>A classroom is a space for learning through a process of thoughtful and generous engagement with the course material and with the classroom community. As members of this classroom community, we are all responsible for actively contributing to and supporting a learning environment built on honest and respectful dialogue and attentive listening. While it is inevitable that there will be moments of disagreement–perhaps even offense–in the classroom, we can learn from these moments by agreeing to discuss and address them collectively. Learning how to defend your opinions and debate in a reasoned way is crucial to your growth at RISD and beyond… Please read the rest of the RISD classroom statement <a href="https://drive.google.com/file/d/1Qj80-Q4Q_5q_dzMCViEtTc24tg2T09TH/view?usp=sharing">here</a>.</p>
+            </div>
+        </div>
+        <div class="syl-sec" id="credits">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <br> 
+                <h3>Credits</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Special thanks to Minkyoung Kim, Marie Otsuka, Bobby Joe Smith III, and Chris Novello, whose syllabi for Graphic Design for the Web, Web Design (WS2018), Web Design (WS2018), and Programming Foundations respectively inform this iteration of the class.</p>
+            </div>
+        </div>
+    </section>
+    <section class="sec" id="schedule">
+        <br>
+        <h3>Schedule</h3>
+        <br>
+        <div class="grid-container">
+            <div class="item col-head">Date</div>
+            <div class="item col-head">In-Class</div>
+            <div class="item col-head hw">Homework</div>
+            <div class="item date">1/10</div>
+            <div class="item">
+                <p>Introduction & Course Overview</p>
+                <p>Setup & Getting Started</p>
+                <p>Lecture: HTML</p>
+                <p>In-Class Exercise: HTML markup</p>
+                <p>Lecture: CSS Part 1—Anatomy, Hierarchy, and Basic Properties</p>
+                <p>Demo: CSS and External Stylesheets</p>
+            </div>
+            <div class="item hw">
+                <p>Exercises 1, 2</p>
+                <p>Watch: Ingrid Burrington, <a href="http://videos.theconference.se/ingrid-burrington-where-the-internet-is-located" target="_blank"><i>Where the Internet is Located</i></a></p>
+                <p>Begin Project 1</p>
+            </div>
+            <div class="item date">1/11</div>
+            <div class="item">
+                <p>Reading Discussion</p>
+                <p>Lecture: CSS Part 2—Layouts</p>
+                <p>Demo: CSS Layouts</p>
+                <p>Lecture: CSS Part 3—Media Queries</p>
+                <p>Demo: Media Queries & Developer Tools</p>
+                <p>Demo: Two-column responsive layouts with flexbox and media queries</p>
+            </div>
+            <div class="item hw">
+                <p>Exercises 3, 4</p>
+                <p>Continue Project 1</p>
+            </div>
+            <div class="item date">1/12</div>
+            <div class="item">
+                <p>Exercise 4 Review</p>
+                <p>Lecture: CSS Part 4—Hover States, Transformations, Transitions, and Animations</p>
+                <p>In-Class Exercise: CSS Transformation and Animation</p>
+                <p>Small Group Meetings: Project 1 Check-In</p>
+            </div>
+            <div class="item hw">
+                <p>Finish Project 1</p>
+                <p>Exercise 5</p>
+                <p>Begin Exercises 6, 7, 8 (all due in ~2 weeks)</p>
+                <p>Reading: Paul Ford, <a href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/" target="_blank"><i>What is Code?</i></a> <span class="optional">*The entire text is recommended, but only the following are required:</span></p>
+                <ul>
+                    <li>Chapter 1: The Man in the Taupe Blazer</li>
+                    <li>Chapter 2: Let's Begin</li>
+                    <li>Chapter 5: The Time You Attended the E-mail Address Validation Meeting</li>
+                    <li>Chapter 6.5: And Now for Something Beautiful</li>
+                </ul>
+            </div>
+            <div class="item date">1/17</div>
+            <div class="item item-span">No Class</div>
+            <div class="item date">1/18</div>
+            <div class="item">
+                <p>Reading Discussion</p>
+                <p>Project 1 Crit</p>
+                <p>Introduce p5.js</p>
+                <p>Lecture/Demo: Introduction to Programming Concepts with p5.js</p>
+                <p>In-Class Exercise: Conversational Code</p>
+                <p>In-Class Exercise: Drawing in p5.js</p>
+            </div>
+            <div class="item hw">
+                <p>Exercises 9, 10</p>
+                <p>Continue Exercises 6, 7, 8</p>
+                <p>Watch:</p>
+                <ul>
+                    <li>Bret Victor, <a href="https://vimeo.com/64895205" target="_blank"><i>Stop Drawing Dead Fish</i></a> (53min)</li>
+                    <li>Cathy O'Neil, <a href="https://www.youtube.com/watch?v=_2u_eHHzRto" target="_blank"><i>The era of blind faith in big data must end</i></a> (13min)**</li>
+                    <li>Safiya Umoja Noble, <a href="https://www.youtube.com/watch?v=iRVZozEEWlE" target="_blank"><i>Challenging the Algorithms of Oppression</i></a> (12min)***</li>
+                </ul>
+                <p class="optional" style="font-size: 17px"><span style="color: black; font-weight: 700">*</span>The entire video is recommended, but you'll probably get the gist in the first 20min or so.</p>
+                <p class="optional" style="font-size: 17px"><span style="color: black; font-weight: 700">**</span>This video is the sparknotes version of <a style="color: rgb(174, 174, 174)" href="https://www.youtube.com/watch?v=TQHs8SA1qpk" target="_blank"><i>Weapons of Math Destruction</i></a>, which is recommended but not required.</p>
+                <p class="optional" style="font-size: 17px"><span style="color: black; font-weight: 700">***</span>This video is the sparknotes version of <a style="color: rgb(174, 174, 174)" href="https://www.youtube.com/watch?v=Q7yFysTBpAo" target="_blank"><i>Algorithms of Oppression</i></a>, which is recommended but not required.</p>
+            </div>
+            <div class="item date">1/24</div>
+            <div class="item">
+                <p>Review Exercise 10</p>
+                <p>Reading Discussion</p>
+                <p>Lecture: Object-Oriented Programming</p>
+                <p>Demo: Arrays, Objects, Loops in Use</p>
+                <p>Demo: AABB Collision and Pong</p>
+                <p>Demo: Adding JS to your Website</p>
+            </div>
+            <div class="item hw">
+                <p>Exercises 11, <span class="optional">12</span>, 13</p>
+                <p>Continue Exercises 6, 7, 8</p>
+            </div>
+            <div class="item date">1/25</div>
+            <div class="item">
+                <p>Review Exercises 12 & 13</p>
+                <p>Lecture: UX/UI—Basic Principles &amp; Practices</p>
+                <p>Demo: Prototyping in Figma</p>
+                <p>Lecture: Javascript—Events, jQuery, &amp; Useful Methods</p>
+                <p>Demo: Event Listeners</p>
+                <p>In-Class Exercise: Click Interaction</p>
+            </div>
+            <div class="item hw">
+                <p>Finish Exercises 6, 7, 8</p>
+                <p>Project 2: Begin designing your project in Figma.</p>
+                <p>Play around with: <a href="https://userinyerface.com/" target="_blank">User Inyerface</a></p>
+            </div>
+            <div class="item date">1/26</div>
+            <div class="item">
+                <p>Review Exercises 6, 7, 8</p>
+                <p>Lecture: jQuery—Traversing/Manipulating the DOM, Animations, jQuery UI</p>
+                <p>Demo: Responsive Design and JavaScript</p>
+                <p>Small Group Meetings: Project 2</p>
+            </div>
+            <div class="item hw">
+                <p>Exercise 14</p>
+                <p>Continue Project 2</p>
+                <p>Read/Watch:</p>
+                <ul>
+                    <li>American Artist, <a href="https://unbag.net/end/black-gooey-universe" target="_blank"><i>Black Gooey Universe</i></a></li>
+                    <li>Bret Victor, <a href="http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign" target="_blank"><i>A Brief Rant on the Future of Interaction Design</i></a></li>
+                    <li>Zeynep Tufekci, <a href="https://www.youtube.com/watch?v=iFTWM7HV2UI" target="_blank"><i>We're building a dystopia just to make people click on ads</i> (23min)</a></li>
+                </ul>
+            </div>
+            <div class="item date">1/31</div>
+            <div class="item">
+                <p>Reading Discussion</p>
+                <p>Review Exercise 14</p>
+                <p>Lecture: Catch-all: Useful CSS/JS we haven't covered</p>
+                <p>Introduce Final Compilation</p>
+                <p>Small Group Meetings: Project 2</p>
+            </div>
+            <div class="item hw">
+                <p>Start Final Compilation Site</p>
+                <p>Continue Project 2</p>
+            </div>
+            <div class="item date">2/1</div>
+            <div class="item">
+                <p>Lecture: APIs and JSON</p>
+                <p>Demo: Weather API</p>
+                <p>Demo: Populating with JSON</p>
+                <p>Individual Meetings</p>
+            </div>
+            <div class="item hw">
+                <p>Continue Project 2</p>
+                <p class="optional">Suggesting Reading: Metahaven, <a style="color: rgb(174, 174, 174)" href="https://www.e-flux.com/journal/37/61232/captives-of-the-cloud-part-i/" target="_blank"><i>Captives of the Cloud</i></a></p>
+            </div>
+            <div class="item date">2/7</div>
+            <div class="item">
+                <p>Lecture: Launching a Website</p>
+                <p>Individual Meetings</p>
+                <p>Work Session</p>
+            </div>
+            <div class="item hw">
+                <p>Finish Compilation Site</p>
+                <p>Continue Project 2</p>
+                <p class="optional">Suggested Reading: Laurel Schwulst, <a style="color: rgb(174, 174, 174)" href="https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/" target="_blank"><i>My website is a shifting house next to a river of knowledge. What could yours be?</i></a></p>
+            </div>
+            <div class="item date">2/8</div>
+            <div class="item">
+                <p>Lecture: Designing for— [the Web]</p>
+                <p>Individual Meetings</p>
+                <p>Work Session</p>
+            </div>
+            <div class="item hw">
+                <p>Finish Project 2</p>
+            </div>
+            <div class="item date">2/9</div>
+            <div class="item item-span">Final Crits</div>
+        </div>
+    </section>
+    <section class="sec" id="exercises">
+        <div class="syl-sec ex-01">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <br>
+                <h3>01 Styling Text</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Finish styling the your HTML text from the in-class exercise. Change the typeface, or change colors. Consider setting width or margins or padding. Completing Exercise 2 first may be helpful.</p>
+            </div>
+        </div>
+        <div class="syl-sec ex-02">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>02 Codecademy HTML & CSS</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Complete parts 1.1 and 1.2 of Learn HTML, and parts 1, 2, <span class="optional">4, and 5</span> (skip 3) of Learn CSS.</p>
+                <p class="optional">This exercise is optional for those already familiar with HTML & CSS. Parts 4 and 5 of Learn CSS are optional for ALL students, though recommended for deeper understanding of what styling options are available in CSS. Parts 4 and 5 will be particularly helpful for Project 1, so you can go through them later this week if you wish.</p>
+
+                <p><a href="https://www.codecademy.com/learn/learn-html/modules/learn-html-elements" target="_blank">Learn HTML 1: Elements and Structure</a></p>
+                <ul>
+                    <li>1.1 Introduction to HTML</li>
+                    <li>1.2 HTML Anatomy</li>
+                </ul>
+                <p><a href="https://www.codecademy.com/learn/learn-css/modules/learn-css-selectors-visual-rules" target="_blank">Learn CSS 1: Selectors and Visual Rules</a> (all)</p>
+                <p><a href="https://www.codecademy.com/learn/learn-css/modules/learn-css-box-model" target="_blank">Learn CSS 2: The Box Model</a> (all)</p>
+                <p class="optional"><a href="https://www.codecademy.com/learn/learn-css/modules/learn-css-colors" target="_blank">Learn CSS 4: Color</a> (all)</p>
+                <p class="optional"><a href="https://www.codecademy.com/learn/learn-css/modules/learn-css-typography" target="_blank">Learn CSS 5: Typography</a> (all)</p>
+            </div>
+        </div>
+        <div class="syl-sec ex-03">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>03 CSS Layout Review</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Review CSS layout properties with the following:</p>
+                <ul>
+                    <li><a href="http://learnlayout.com/no-layout.html" target="_blank">Learn Layout</a></li>
+                    <li><a href="http://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a></li>
+                    <li><a href="http://cssgridgarden.com/" target="_blank">CSS Grid</a></li>
+                </ul>
+                <p class="optional">This exercise is optional for those already familiar with CSS layouts.</p>
+            </div>
+        </div>
+        <div class="syl-sec ex-04">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>04 Responsive Design</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Finish marking up the demo we began in class, and make it responsive using media queries.</p>
+            </div>
+        </div>
+        <div class="syl-sec ex-05">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>05 CSS Animation: Marquee</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Use CSS Animations to make two marquees. One marquee should run constantly in a fixed footer. The other marquee should only run when a user hovers over the text.</p>
+
+                <p>If you'd like, you may skip this exercise and instead incorporate 1 CSS animation that responds to hover and 1 fixed element (doesn't have to be a marquee) in Project 1: Lyric Styling instead.</p>
+            </div>
+        </div>
+        <div class="syl-sec ex-06">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>06 Udacity jQuery</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Complete the full Udacity <a href="https://classroom.udacity.com/courses/ud245" target="_blank">jQuery track</a> (3 lessons).</p>
+            </div>
+        </div>
+        <div class="syl-sec ex-07">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>07 Eloquent JavaScript</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Read through the beginning of <a href="http://eloquentjavascript.net/" target="_blank">Eloquent Javascript</a> and complete the exercises at the end of Chapter 2.</p>
+                <ul>
+                    <li>0 Introduction</li>
+                    <li>1 Values, Types, and Operators</li>
+                    <li>2 Program Structure</li>
+                </ul>
+            </div>
+        </div>
+        <div class="syl-sec ex-08">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>08 Codecademy JS</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Complete 1–6 of <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank">Introduction to Javascript</a></p>
+                <ul>
+                    <li>1 Introduction</li>
+                    <li>2 Conditionals</li>
+                    <li>3 Functions</li>
+                    <li>4 Scope</li>
+                    <li>5 Arrays</li>
+                    <li>6 Loops</li>
+                </ul>
+            </div>
+        </div>
+        <div class="syl-sec ex-09">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>09 Coding Train p5.js</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Watch the following <a href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA" target="_blank">Coding Train videos on p5.js</a> by Dan Shiffman:
+                </p>
+                <ul>
+                    <li>2.2: Variables in p5.js (Make Your Own)</li>
+                    <li>2.3: JavaScript Objects</li>
+                    <li>2.4: The map() Function</li>
+                    <li>2.5: The random() Function</li>
+                    <li>3.1: Introduction to Conditional Statements</li>
+                    <li>3.2: The Bouncing Ball</li>
+                    <li>3.3: Else and Else if, AND and OR</li>
+                </ul>
+            </div>
+        </div>
+        <div class="syl-sec ex-10">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>10 p5.js Paint</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Make 3 "paint" programs using p5.js. "Paint" can be interpreted as "the user paints" (probably using mouseX mouseY), or "the computer paints," which is essentially an animation. At least one should use an image(s) via the image() function, which means you'll also need loadImage(). At least one should use if/else conditional statements, which is covered in video 3.3 in Exercise 09. Things you might explore:</p>
+                <ul>
+                    <li>background()</li>
+                    <li>fill()</li>
+                    <li>noFill()</li>
+                    <li>stroke()</li>
+                    <li>noStroke()</li>
+                    <li>strokeWidth()</li>
+                    <li>arc()</li>
+                    <li>ellipse()</li>
+                    <li>line()</li>
+                    <li>point()</li>
+                    <li>quad()</li>
+                    <li>rect()</li>
+                    <li>triangle()</li>
+                    <li>text()</li>
+                    <li>textSize()</li>
+                    <li>rectMode()</li>
+                    <li>imageMode()</li>
+                    <li>blendMode()</li>
+                    <li>random()</li>
+                </ul>
+                <p class="optional">Consider exploring cyclical behavior using either sin() or the modulo operator %. For a guide on how to approach this, check out <a href="https://creative-coding.decontextualize.com/changes-over-time/" target="_blank">Allison Parish's page</a> and scroll down to the modulo section. She covers a lot of cool stuff on this site in general.</p>
+            </div>
+        </div>
+        <div class="syl-sec ex-11">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>11 Coding Train p5.js—Part 2</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Watch the following <a href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA" target="_blank">Coding Train videos on p5.js</a> by Dan Shiffman:
+                </p>
+                <ul>
+                    <li>4.1: while and for Loops</li>
+                    <li>4.2: Nested Loops</li>
+                    <li>5.2: Function Parameters and Arguments</li>
+                    <li>5.3: Functions and Return</li>
+                    <li class="optional">6.2: Classes in JavaScript with ES6</li>
+                    <li class="optional">6.3: Constructor Arguments with Classes in JavaScript</li>
+                    <li>7.2: Arrays and Loops</li>
+                    <li class="optional">7.3: Arrays of Objects</li>
+                </ul>
+            </div>
+        </div>
+        <div class="syl-sec ex-12">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>12 p5.js Pong</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p class="optional">This exercise is optional.</p>
+                <p>Finish the one-player Pong game we started in class with an AABB collision function.</p>
+                <p>Solution is <a href="https://editor.p5js.org/55378008/sketches/W8-mPNKCv">here</a>.</p>
+            </div>
+        </div>
+        <div class="syl-sec ex-13">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>13 p5.js A Colorful Array</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Using arrays and for loops, draw 50 (or more) shapes to your canvas, each with a random size, position, and color. Color should not be grayscale. Colors should not flash.</p>
+                <p>Hint: You will need at least 2 arrays—1 for your shapes and one for color. This is because shapes are drawn with one function (ellipse, rect, etc.) while color is determined using another (fill). These arrays should be arrays of objects. Remember the array.push() method, and be careful not to name your variables using existing p5.js variable names like "circle".</p>
+
+                <p>A solution using circles is <a href="https://editor.p5js.org/55378008/sketches/L-e6hfgS2" target="_blank">here</a>.</p>
+            </div>
+        </div>
+        <div class="syl-sec ex-14">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>14 Responsive Events</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Using your knowledge of media queries and jQuery, create a responsive navigation menu that displays its full contents on desktop but hides components on mobile, only displaying when clicked.</p>
+            </div>
+        </div>
+    </section>
+    <section class="sec" id="projects">
+        <div class="syl-sec proj-01">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <br>
+                <h3>01 Lyric Styling</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>This project is about using web technologies as an expressive platform for text.</p>
+                <p>Pick an expressive piece of text, whether it's song lyrics, a poem, a manifesto, etc. Combine this text with imagery and sketch out a design. Finally, translate your sketch into HTML & CSS.
+                </p>
+                <p class="due">Due Tuesday, January 19</p>
+            </div>
+        </div>
+        <div class="syl-sec proj-02">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>02 Personal Project</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>Design a web project of your choosing. This project should demonstrate a cumulation of the skills we've learned in this class.</p>
+                <p>Projects will be proposed as a Figma prototype, including interactions. Students will then translate their prototype into code using HTML & CSS and attaching at least 1 event listener with Javascript or jQuery.</p>
+                <p>Recommended workflow consists of the following:</p>
+                <ul>
+                    <li>Plan (Sketch a sitemap, categorize your content)</li>
+                    <li>Design (Consider your layout, typography, and palette)</li>
+                    <li>Annotate (Write out or mark up your design to note DOM hierarchy, and what CSS or JS you might need)</li>
+                    <li>Develop (Leverage your combined knowledge of HTML, CSS, and Javascript/jQuery)</li>
+                    <li>Test (Design the responsive behavior of the site and test across devices, including phones)</li>
+                </ul>
+                <p class="due">Due Wednesday, February 10</p>
+            </div>
+        </div>
+        <div class="syl-sec proj-03">
+            <div class="syl-head">
+                <div class="left"></div>
+                <div class="right">
+                <h3>-- Compilation</h3>
+                </div>
+            </div>
+            <div class="syl-text">
+                <p>This is not a project, per se, but a means to deliver the work you've done during this class. You will already have collected your projects and exercises in your GitHub repository and in your p5.js account. This compilation is in the form of a website but is essentially a linktree to the variety of sites you have published through GitHub/p5. The design is open, so long as your content is accessible.</p>
+                <p class="due">Due Tuesday, February 9</p>
+            </div>
+        </div>
+    </section>
+
+</div>
+</body>
+</html>
+
+
+
