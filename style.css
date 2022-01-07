@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
     
 }
 
@@ -26,7 +27,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    color: blue;
+    color: rgb(240,255,0);
     min-width: 150px;
 }
 
@@ -37,6 +38,7 @@ header {
 .info > p {
     font-size: 15px;
     margin: 0;
+    color: rgb(240,255,0);
 }
 
 .copyright {
@@ -67,14 +69,14 @@ nav {
 h1 {
     font-size: 20px;
     font-weight: 700;
-    color: blue;
+    color: rgb(240,255,0);
 }
 
 
 nav > div {
     flex: 1;
     padding: 10px 10px 30px 10px;
-    background-image: linear-gradient(rgba(255,255,255,1) 80%, rgba(255,255,255,0));
+
 }
 
 nav > div:first-of-type {
@@ -89,7 +91,7 @@ nav > div a {
     font-size: 20px;
     font-weight: 800;
     font-family: 'Recursive', monospace;
-    color: #000;
+    color: white;
     text-decoration: none;
 }
 
@@ -129,6 +131,7 @@ nav > div a {
 .left {
     display: none;
     margin-top: -5px;
+   
 }
 
 
@@ -139,12 +142,13 @@ h3 {
     line-height: .9;
     margin-top: -25px;
     margin-bottom: 10px;
+    color: white;
 }
 
 
 
 .syl-text a {
-    color: #000;
+    color: white;
     font-weight: 700;
 }
 
@@ -159,15 +163,20 @@ h3 {
 .grid-container {
     display: grid;
     grid-template-columns: 10% 50% 40%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     grid-gap: 1px;
-    border: 1px solid #000;
+    border: 1px solid rgb(255, 255, 255);
+   
 }
 
 .item.col-head {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-transform: uppercase;
     padding: 0;
+    color: white;
+    height: 40px;
 }
 
 .item.hw {
@@ -175,8 +184,9 @@ h3 {
 }
 
 .item {
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     padding: 10px 40px;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .item-span {
@@ -185,6 +195,7 @@ h3 {
     margin-right: 2px;
     font-size: 25px;
     font-weight: 700;
+    color: white;
 }
 
 .date {
@@ -192,6 +203,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .item.date {
@@ -209,17 +221,19 @@ p {
     font-size: 25px;
     line-height: 1.4;
     margin-bottom: 15px;
+    color: white;
 }
 
 
 ul {
     list-style: none;
     margin: 20px 0px 30px 7%;
+    
 }
   
 ul li::before {
     content: "\2022";
-    color: blue; 
+    color: rgb(240,255,0);
     font-weight: bold; 
     display: inline-block; 
     width: 1em;
@@ -230,6 +244,7 @@ li {
     font-size: 25px;
     line-height: 1.2;
     margin: 10px 0px;
+    color: white;
 }
 
 .right > h3 {
@@ -239,7 +254,11 @@ li {
 
 
 .left {
-    background-color: blue;
+    
+    color: rgb(240,255,0);
+    font-size: 100px;
+    font-family: 'Recursive', monospace;
+    max-width: 70px;
 }
 
 .optional {
@@ -263,7 +282,7 @@ li {
 @media screen and (max-device-width:768px), screen and (max-width:768px) {
     .mobi {
         display: block;
-        color: blue;
+        color: rgb(240,255,0);
     }
 
     .top {
@@ -299,9 +318,9 @@ li {
         padding: 0 10px 45px 10px;
         width: 100%;
         flex-direction: row;
-        background-image: linear-gradient(rgba(255,255,255,1) 75%, rgba(255,255,255,0));
         height: 40px;
         overflow: hidden;
+        background-color: black;
     }
 
     nav.open {
@@ -311,12 +330,15 @@ li {
 
     nav > div {
         padding: unset;
-        background: none;
+        background-color: black;
+
     }
 
     nav > div a {
         font-size: 25px;
+        background-color: black;
     }
+
 
     nav > div:first-of-type {
         padding: 10px 10px 10px 0px;
@@ -335,13 +357,18 @@ li {
     }
 
     .menu h1 {
-        color: #000;
+        color: rgb(255, 255, 255);
     }
 
 
     h3 {
         font-size: 60px;
         margin-bottom: 5px;
+    }
+
+    .left{
+        font-size: 60px;
+        max-width: 45px;
     }
 
     p {
